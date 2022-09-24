@@ -1,0 +1,101 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background: url(img/gym2.jpg);
+    color: aliceblue;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: -4px;
+    left: 30px;
+}
+
+.left p {
+    color: rgb(242, 255, 0);
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    right: 30px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(246, 255, 0);
+    text-decoration: none;
+    padding: 12px 12px;
+}
+
+.btn {
+    background-color: black;
+    cursor: pointer;
+    border: 2px solid rgb(246, 255, 0);
+    touch-action: pinch-zoom;
+    color: rgb(238, 255, 0);
+}
+
+.container {
+    display: inline-block;
+    border: 3px solid yellow;
+    width: 33%;
+    padding: 12px;
+    margin: 89px 49px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 21px;
+    color: rgb(246, 255, 0);
+}
+
+.form input {
+    background-color: black;
+    color: rgb(246, 255, 0);
+    display: block;
+    text-align: center;
+    width: 82%;
+    padding: 4px 2px;
+    margin: 22px auto;
+    font-size: 20px;
+    font-style: strong;
+}
+
+.container button {
+    display: block;
+    width: 84%;
+    padding: 11px 0px;
+    margin: 5px auto;
+    font-size: 21px;
+}
+
+.form input placeholder {
+    color: rgb(246, 255, 0);
+}
+
+/* .foot {
+    display: block;
+    text-align: center;
+    color: rgb(246, 255, 0);
+    background-color: black;
+    border: 3px solid black;
+
+
+} */
